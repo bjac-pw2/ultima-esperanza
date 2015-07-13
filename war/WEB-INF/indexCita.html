@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC>
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+  <h2>CLINICA ULTIMA ESPERANZA</h2>
+  <ul class = "index">
+      <li><a href="index.html">INICIO</a>
+      <li><a href="medicamento.jsp">Agregar Medicamento</a>
+      <li><a href="/listaMedicina">Listar Medicamentos</a>
+      <li><a href="paciente.jsp">Agregar Paciente</a>
+      <li><a href="/listaPaciente">Listar Pacientes</a>
+      <li><a href="medico.jsp">Agregar Medico</a>
+      <li><a href="/listaMedicos">Listar Medico</a>
+      <li><a href="receta.jsp">Receta</a>
+      <li><a href="examen.jsp">Examen</a>
+      <li><a href="resExamen.jsp">Resultados del Examen</a>
+      <li><a href="indexCita.html">Cita</a>
+      <li><a href="horario.html">Horario</a>
+      </ul>
+  <form action="save" class='save'>
+  
+	  <span class='lf'>Numero de cita: </span><input type="text" name="numeroCita" disabled='1'><br>
+	  <span class='lf'>Paciente: </span> <input type="text" name="usuario" disabled='1'><br>
+	  <span class='lf'>Fecha: </span><input type="text" name="fecha" ><br>
+	  <span class='lf'>Hora: </span><input type="text" name="hora"><br>
+	  <span class='lf'>Asunto: </span><input type="text" name="asunto"><br>
+	  <input type="submit">
+  </form>
+  </body>
+</html>

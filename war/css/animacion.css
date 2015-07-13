@@ -1,0 +1,63 @@
+#portada{
+	clear: both;
+	width: 1260px;
+	height: 400px;
+	margin: 0px auto;
+    overflow: hidden;
+    background: #ECECEC;
+}
+#portadaPie{
+	display: table;
+	width:1260px;
+	height:30px;
+	margin:0px auto;
+	text-align:center;
+	color:#099;
+}
+.ppies{
+	display:table-cell;
+	height:23px;
+	padding-top:5px;
+	border-top:3px solid #099;
+	border-right:3px solid #099;
+	border-left:3px solid #099;
+	font-family: Oswald,sans-serif;
+}
+#im{
+	width:3780px;
+    height:auto;
+    overflow: hidden;
+    -webkit-animation-name: animaSlide;
+    -moz-animation-name:animaSlide;
+    -webkit-animation-duration: 15s;
+    -moz-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -mozz-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out; 
+    -moz-animation-timing-function: ease-in-out;
+    position:relative;
+    vertical-align: middle;
+}
+@keyframes animaSlide{
+    from{ 
+        left:0px; 
+    }
+    34%{
+        left:0px;
+    }
+    66%{
+        left:-1260px;
+    }
+    100%{
+        left:-1260px;
+    }
+    to{
+    	left:-2520px;
+    }
+}
+#im img{
+    float:left;
+    vertical-align: middle;
+}
